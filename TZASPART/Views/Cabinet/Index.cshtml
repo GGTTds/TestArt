@@ -1,0 +1,33 @@
+﻿@model IEnumerable<TZASPART.User>
+<section id="work" class="parallax-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12">
+                <!-- SECTION TITLE -->
+                <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                    <h2>Информация</h2>
+                </div>
+            </div>
+            @foreach (var s in Model)
+            {
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                        <a asp-action="Exit">
+                            <div class="work-thumb-overlay">
+                                <h4 class="white-color">@s.Fio</h4>
+                                <h4>@s.Phone </h4>
+                                <h4>@s.Email </h4>
+                                <h4>@s.LastLogin </h4>
+                            </div>
+                            <img src="~/images/png-clipart-computer-icons-user-profile-avatar-avatar-face-heroes.png" class="img-responsive" alt="Work 1">
+                        </a>
+                    </div>
+                </div>
+            }
+            <p>Кликните по обьекты слева чтобы разлогинится</p>
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+   @await Html.PartialAsync("MetaPart")
+
+    <title>@ViewBag.Title</title>
+
+    @await Html.PartialAsync("CssPart") 
+
+</head>
+<body>
+
+    <!-- PRE LOADER -->
+    <div class="preloader">
+        <div class="spinner">
+            <span class="spinner-rotate"></span>
+        </div>
+    </div>
+    <!-- HOME SECTION -->
+    <section id="home" class="parallax-section">
+        <div class="container">
+                    </div>
+    </section>
+
+
+    <!-- SERVICE SECTION -->
+    <!-- ABOUT SECTION -->
+    
+    <!-- WORK SECTION -->
+    @RenderBody()
+
+
+    <!-- FOOTER SECTION -->
+    @await Html.PartialAsync("FooterPart")
+
+    <!-- SCRIPTS -->
+   @await Html.PartialAsync("ScriptPart")
+
+</body>
+</html>

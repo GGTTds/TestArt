@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TZASPART", "TZASPART\TZASPART.csproj", "{A165CF65-0691-47A2-94E1-DFEA57E75751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TZAPI", "TZAPI\TZAPI.csproj", "{B69E18B0-2240-49A6-B768-5EFBC9586DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A165CF65-0691-47A2-94E1-DFEA57E75751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A165CF65-0691-47A2-94E1-DFEA57E75751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A165CF65-0691-47A2-94E1-DFEA57E75751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A165CF65-0691-47A2-94E1-DFEA57E75751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69E18B0-2240-49A6-B768-5EFBC9586DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69E18B0-2240-49A6-B768-5EFBC9586DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69E18B0-2240-49A6-B768-5EFBC9586DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69E18B0-2240-49A6-B768-5EFBC9586DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69A557D3-935E-4603-BED5-5AE8A7D4391C}
+	EndGlobalSection
+EndGlobal
