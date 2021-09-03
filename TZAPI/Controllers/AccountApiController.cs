@@ -66,7 +66,7 @@ namespace TZAPI.Controllers
                 return BadRequest(ModelState);
             }
         }
-        [HttpPost]
+        [HttpPut]
         public async Task<ActionResult> Login([FromBody] User y)
         {
             try
