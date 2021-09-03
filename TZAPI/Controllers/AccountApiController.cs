@@ -96,7 +96,7 @@ namespace TZAPI.Controllers
                 return BadRequest(ModelState);
             }
         }
-
+        [HttpDelete]
         public ActionResult logout()
         {
             if (Request.Cookies.ContainsKey("SAS") == false)
@@ -109,7 +109,8 @@ namespace TZAPI.Controllers
                 return StatusCode(200);
             }
         }
-        [Route("get-my-info")]
+        [HttpGet]
+        [Route("api/[controller]/get-my-info")]
         public async Task<ActionResult<User>> GetInfo()
         {
             if (Request.Cookies.ContainsKey("SAS") == false)
