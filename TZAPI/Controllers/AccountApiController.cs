@@ -110,7 +110,7 @@ namespace TZAPI.Controllers
             }
         }
         [HttpGet]
-        [Route("api/[controller]/get-my-info")]
+        [Route("get-my-info")]
         public async Task<ActionResult<User>> GetInfo()
         {
             if (Request.Cookies.ContainsKey("SAS") == false)
